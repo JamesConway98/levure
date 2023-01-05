@@ -62,7 +62,7 @@ If `pSimulator` has a valid value then
 Returns: Empty
 
 */
-local sPort, sProfile
+local sProfile
 command packagerPackageApplication pStandaloneStackFilename, pBuildProfile, pSimulator
   local tError, tBuildProfile, tBuildStandalone, tStandaloneBuilderPlatforms
   local tSubFolder, tOutputFolder, tAppFolder, tPlatformFilter
